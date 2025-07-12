@@ -1,6 +1,6 @@
 # SPD2010-Touch-Arduino
 
-> **A pure-Arduino driver for the ShenZhen SPD2010 capacitive
+> **A pure-Arduino driver for the Solomon Systech SPD2010 capacitive
 > touch-panel IC – tested on ESP32-S3 but portable to any MCU with
 > `Wire`.**  
 > No ESP-IDF glue, no heavyweight framework, no drama – drop the two
