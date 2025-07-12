@@ -1,21 +1,23 @@
 # SPD2010-Touch-Arduino
 
 > **A pure-Arduino driver for the Solomon Systech SPD2010 capacitive
-> touch-panel IC – tested on ESP32-S3 but portable to any MCU with
+> touch-panel IC used on the waveshare 1.46@ esp32 dev-board...tested on ESP32-S3
+> but portable to any MCU with
 > `Wire`.**  
 > No ESP-IDF glue, no heavyweight framework, no drama – drop the two
 > files into your project and go.
 
 ---
 
-## Why this repo exists 🤦‍♂️
+## Why this repo exists 
 
-The Waveshare “1.46-inch Capacitive Touch Round LCD” ships with an
+The Waveshare "ESP32-S3 1.46inch Round Display Development Board" ships with an
 ESP-IDF/Arduino wrapper that drags in a whole mass of extra components files that 
 are all limmited/demo drivers and still refuses to compile on stock PlatformIO.  
 I spent **three days** reverse-engineering the protocol (and reading
 MicroPython sources) so you don’t have to.
 
+https://www.waveshare.com/product/arduino/boards-kits/esp32-s3/esp32-s3-touch-lcd-1.46b.htm
 ---
 
 ## Features
