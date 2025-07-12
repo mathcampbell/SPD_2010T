@@ -114,7 +114,7 @@ Sketch ➜ Add File… ✓
 
 Tools ➜ Core = ESP32 (3.0+ recommended)
 
-Credits
+## Credits
 Waveshare example (ESP-IDF) for the original register set
 
 Kevin Schlosser for the
