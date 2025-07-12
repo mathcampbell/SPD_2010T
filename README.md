@@ -10,9 +10,9 @@
 
 ## Why this repo exists 🤦‍♂️
 
-The Waveshare “1.69-inch Capacitive Touch Round LCD” ships with an
-ESP-IDF/Arduino wrapper that drags in **15 MB** of extra components and
-still refuses to compile on stock PlatformIO.  
+The Waveshare “1.46-inch Capacitive Touch Round LCD” ships with an
+ESP-IDF/Arduino wrapper that drags in a whole mass of extra components files that 
+are all limmited/demo drivers and still refuses to compile on stock PlatformIO.  
 I spent **three days** reverse-engineering the protocol (and reading
 MicroPython sources) so you don’t have to.
 
